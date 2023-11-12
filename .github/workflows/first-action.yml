@@ -9,8 +9,14 @@ jobs:
         run: echo "hello world"
       - name : print goodbby
         run: echo "bubye"
-      
-    
+  
+  second-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print hello
+        run: echo "hello world"
+      - name : print goodbby
+        run: echo "bubye"  
     
     
   
